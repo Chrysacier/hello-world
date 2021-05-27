@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: neue-haas-grotesk-display, sans-serif;
+    // font-family: "Suisse Intl";
+    font-weight: 450;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    color: var(--color-text);
+    letter-spacing: .25px;
+}
+
+.title{
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+.header{
+    height: 54px;
+    background: red;
+}
+
+.main{
+    margin: 0 1.8rem;
+}

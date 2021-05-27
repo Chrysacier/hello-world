@@ -1,0 +1,45 @@
+/* Variables 
+================================================================================ */
+:root {
+    --color-bg: white;
+    --color-text: #1D1F1A;
+    --color-primary: #CCCCCC;
+    --color-secondary: #303030;
+}
+
+@font-face {
+    font-family: "Suisse Intl";
+    src: url(../font/SuisseIntl-Light-WebTrial.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Suisse Intl";
+    src: url(../font/SuisseIntl-Regular-WebTrial.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Suisse Intl";
+    src: url(../font/SuisseIntl-Medium-WebTrial.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "SangBleu Kingdom";
+    src: url(../font/SangBleuKingdom-Medium-WebTrial.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SangBleu Kingdom";
+    src: url(../font/SangBleuKingdom-Bold-WebTrial.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+

@@ -1,0 +1,83 @@
+.img{
+    width: 100%;
+}
+
+.link{
+    color: var(--color-text);
+    text-decoration: none;
+    margin-top: 4rem;
+    display: inline-block;
+}
+
+.link--border{
+    padding: 1.6rem 4rem;
+    border: 2px solid var(--color-text);
+    font-family: "Suisse Intl";
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.svg-arrow{
+    margin-left: 1rem;
+    width: 1.2rem;
+    fill: var(--color-text);
+}
+
+.link--border:hover{
+    background: var(--color-text);
+    color: var(--color-bg);
+}
+
+.link--border:hover .svg-arrow{
+    fill: var(--color-bg);
+}
+
+.intro{
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-bg);
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste{
+    list-style-type: none;
+    padding: unset;
+}
+
+.intro__liste{
+    font-family: "SangBleu Kingdom";
+    font-size: 5.8rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.intro__item{
+    padding: 1.5rem 0;
+}
+
+.intro__item:not(:last-child){
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.item--left{
+    text-align: left;
+}
+
+.item--left:hover{
+    transform: translateX(-20px);
+    transition: 1s;
+}
+
+.item--right{
+    text-align: right;
+}
+
+.item--right:hover{
+    transform: translateX(20px);
+    transition: 1s;
+}
